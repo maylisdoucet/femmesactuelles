@@ -1,0 +1,56 @@
+.hide {
+    color: white;
+    font-size: 30px;
+}
+
+.hide:hover{
+    color: red;
+    font-size: 30px;
+}
+
+.touch {
+    background-color: #e47cc7;
+    font-size: 30px;
+    color: red;
+}
+
+.title {
+    font-size: 60px;
+
+}
+
+
+.Headercritics {
+    background-color: white;
+    color: #e47cc7;
+    height: 120px;
+    font-size: 20px;
+  }
+  
+  .Headercritics ul {
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    height: 120px;
+  }
+  
+  .Headercritics ul li {
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px 30px;
+    transition: color .2s ease-in;
+    display:grid;
+  }
+  
+  .Headercritics ul li:hover {
+    color: red;
+  }
+  
+  .Titre {
+    color: red;
+  }
+
+  .Texts {
+      margin-right: 30px;
+  }

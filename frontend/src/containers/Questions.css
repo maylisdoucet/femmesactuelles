@@ -1,0 +1,14 @@
+
+.toggle-icon {
+    color:#e47cc7;
+}
+
+.question:hover {
+    color: #e47cc7;
+}
+
+.x-rotate:hover {
+    transform: rotate(-10deg);
+    transition: all 200ms;
+    color: #e47cc7;
+}

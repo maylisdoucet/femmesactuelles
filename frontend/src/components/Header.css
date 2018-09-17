@@ -1,0 +1,31 @@
+.Header {
+  background-color: white;
+  border-bottom: 2px solid red;
+  color: #e47cc7;
+  height: 120px;
+  font-size: 30px;
+}
+
+.Header ul {
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  height: 120px;
+}
+
+.Header ul li {
+  text-transform: uppercase;
+  align-items: center;
+  font-weight: bold;
+  margin: 10px 30px;
+  transition: color .2s ease-in;
+  display:inline;
+}
+
+.Header ul li:hover {
+  color: red;
+}
+
+.Titre {
+  color: red;
+}
