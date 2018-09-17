@@ -4,10 +4,10 @@ import mysql from 'mysql';
 const router = express.Router();
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'sophie',
-  database: 'roadtrip',
+  host: 'sql7.freemysqlhosting.net',
+  user: 'sql7257295',
+  password: 'E2KavkNN7p',
+  database: 'sql7257295',
 });
 
 router.get('/cities', (req, res) => {
